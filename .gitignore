@@ -3,3 +3,7 @@ _site
 pages/.DS_Store
 pages/tags.md
 _notes/.obsidian
+.idea/*
+.idea
+_notes/Private
+_notes/Private/*
