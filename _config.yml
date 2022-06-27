@@ -34,6 +34,10 @@ copyright:
   msg: Mateusz Wasilewski
 
 
+user: display
+#avatar: "/assets/img/sputnik.png"
+#round-avatar: true
+
 #####################################################################
 # Settings related to your preferences go here, such as the
 # search results, wiki-style-links, sidenotes, marginnotes, 
@@ -102,7 +106,7 @@ disqus:
     ## Disabled for NotesGarden Theme. 
     shortname: 
 
-markdown: kramdown
+markdown: kramdown 
 
 kramdown:
   input: GFM
@@ -110,7 +114,7 @@ kramdown:
   math_engine: katex
   smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
-  
+
 sass:
   style: compressed
 
