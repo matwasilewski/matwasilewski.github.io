@@ -4,10 +4,9 @@ notetype : feed
 date : 04-06-2022
 ---
 
-# Airflow and TaskFlowAPI
 I read a [great article](https://towardsdatascience.com/taskflow-api-in-apache-airflow-2-0-should-you-use-it-d6cc4913c24c#1bde) on Airflow's TaskFlowAPI by [Anna Geller](https://www.linkedin.com/feed/#). I will summarize her points and share my thoughts as a fresh user of Airflow. Her exploration of TaskFlowAPI helped me understand the purpose and problems of the package at large, and I highly recommend you read the full article.
 
-## The summary
+# The summary
 
 1. Airflow is a scheduler and data orchestration platform, NOT a data processing framework. You should not try to build data flows on Airflow.
 2. Airflow uses XComms system to transfer (meta)data between tasks. Airflow instance contains a relational database that is used by XComms, and Airflow tasks save their output in said database. When using TaskFlowAPI, this happens by default and implicitly. Saved data can be later retrieved by other tasks.
