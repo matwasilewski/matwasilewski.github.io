@@ -1,5 +1,5 @@
 ---
-title : Designing Good Data Architecture
+title : Chapter 3: Designing Good Data Architecture
 notetype : feed
 date : 06-06-2022
 ---
@@ -7,7 +7,7 @@ date : 06-06-2022
 # What is Data Architecture?
 ## Enterprise Architecture
 
-![[Pasted image 20220629132534.png]]
+![[ZZZ_graphics/Pasted image 20220629132534.png]]
 
 * *Enterprise architecture is the design of systems to support change in the enterprise, achieved by flexible and reversible decisions reached through careful evaluation of trade-offs.*
 * *Technical solutions exist not for their own sake but in support of business goals.*
@@ -20,7 +20,7 @@ Data engineering architecture is the system and frameworks that make up the key 
 
 **Operational architecture**: Functional requirements of what needs to happen related to people, processes and technology.
 
-![[Pasted image 20220629133430.png]]
+![[ZZZ_graphics/Pasted image 20220629133430.png]]
 
 ## "Good" data architecture
 Good architecture serves business requirements with a common, widely reusable set of building blocks while maintaining flexibility and making the appropriate trade-offs. Good architecture is flexible and easily maintainable, and evolves in response to business needs. It is written with reversebility in mind - changes should be as cheap as possible.

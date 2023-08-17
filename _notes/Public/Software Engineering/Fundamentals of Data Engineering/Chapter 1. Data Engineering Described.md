@@ -13,7 +13,7 @@ A data engineer gets data, stores it, and prepares it for consumption by data sc
 _Data engineering is the development, implementation, and maintenance of systems and processes that take in raw data and produce high-quality, consistent information that supports downstream use cases, such as analysis and machine learning. Data engineering is the intersection of security, data management, DataOps, data architecture, orchestration, and software engineering. A data engineer manages the data engineering lifecycle, beginning with getting data from source systems and ending with serving data for use cases, such as analysis or machine learning._
 
 ## Data Engineering lifecycle
-![[Screenshot 2022-06-27 at 16.04.14.png]]
+![[ZZZ_graphics/Screenshot 2022-06-27 at 16.04.14.png]]
 We should not fixate on technology and miss the forest for the trees. Data must serve an end goal; stages of data engineering lifecycle are as follows:
 * Generation
 * Storage
@@ -33,7 +33,7 @@ Data engineering also has a notion of _undercurrents_ - concepts and principles 
 ## Data Science, Data Engineering
 Data Engineering is an upstream task as compared to data science - meaning that data engineers provide input for data scientists.
 
-![[Screenshot 2022-06-27 at 16.13.14.png]]
+![[ZZZ_graphics/Screenshot 2022-06-27 at 16.13.14.png]]
 
 About 80% of a Data Scientist's time is spent toiling on the three lower levels of the pyramid, pipeline plumbing and extracting data. Data Engineer's role is to provide production-grade systems for them. 
 

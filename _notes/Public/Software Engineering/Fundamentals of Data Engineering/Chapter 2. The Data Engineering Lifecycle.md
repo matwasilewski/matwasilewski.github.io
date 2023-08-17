@@ -1,5 +1,5 @@
 ---
-title : The Data Engineering Lifecycle
+title : Chapter 2: The Data Engineering Lifecycle
 notetype : feed
 date : 06-06-2022
 ---
@@ -12,7 +12,7 @@ This is second in the series of my notes on [Fundamentals of Data Engineering](h
 * Transformation
 * Serving Data
 
-![[Screenshot 2022-06-27 at 19.05.17.png]]
+![[ZZZ_graphics/Screenshot 2022-06-27 at 19.05.17.png]]
 
 # Generation: Source Streams
 
@@ -171,7 +171,7 @@ As Data Kitchen (experts in DataOps) describes it:
 
 “If the company has no preexisting data infrastructure or practices, DataOps is very much a greenfield opportunity that can be baked in from day one. With an existing project or infrastructure that lacks DataOps, a data engineer can begin adding DataOps into workflows. We suggest first starting with observability and monitoring to get a window into the performance of a system, then adding in automation and incident response. A data engineer may work alongside an existing DataOps team to improve the data engineering lifecycle in a data-mature company. In all cases, a data engineer must be aware of the philosophy and technical aspects of DataOps.
 
-![[Pasted image 20220629122708.png]]
+![[ZZZ_graphics/Pasted image 20220629122708.png]]
 
 ### Automation
 
