@@ -55,10 +55,3 @@ pip_install_options=["--no-deps"],
 
 def test_templated_requirements_file(self):
 ```
-
-# Pytest mark
-
-@pytest.mark.usefixtures("clear_db")
-
-What does it do?
-
